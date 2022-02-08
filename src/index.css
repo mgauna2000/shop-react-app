@@ -11,6 +11,7 @@
     padding: 0 15px;
     box-sizing: border-box;
 }
+/* HEADER */
 header {
     width: 97%;
     min-height: 100px;
@@ -46,4 +47,29 @@ header ul li {
 }
 header ul li a {
     font-weight: bold;
+}
+header .cart {
+    position: relative;
+    cursor: pointer;
+}
+header .cart box-icon {
+    width: 45px;
+    height: 45px;
+}
+header .cart span {
+    position: absolute;
+    top: -1rem;
+    right: -1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 0rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: crimson;
 }
