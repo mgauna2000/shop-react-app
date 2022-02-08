@@ -1,6 +1,7 @@
 import React from "react";
-import { Header } from "./Header/index.js";
-import { ProductsList } from "./Products/index.js";
+import { Header } from "./components/Header/index";
+import { ProductsList } from "./components/Products/index";
+import "boxicons";
 
 function App() {
   return (
