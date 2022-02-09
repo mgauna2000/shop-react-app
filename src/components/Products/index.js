@@ -1,9 +1,30 @@
 import React from "react";
+import IMG from "../../images/img01.jpg";
 
 export const ProductsList = () => {
   return (
-    <div>
-      <h1>Productos</h1>
-    </div>
+    <>
+      <h1 className="title">PRODUCTOS</h1>
+      <div className="productos"> 
+      <a href="#">
+        <div className="producto">
+          <img src={IMG} alt="" />
+        </div>
+        </a>
+        <div className="producto__footer">
+          <h1>Titulo</h1>
+          <p>Categoria</p>
+          <p className="price">$320</p>
+        </div>
+        <div className="button">
+          <button className="btn">
+            Añadir al carrito
+          </button>
+          <div>
+            <a href="#" className="btn">Vista</a>
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
