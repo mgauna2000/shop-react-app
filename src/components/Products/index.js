@@ -17,7 +17,7 @@ export const ProductsList = () => {
           <p>Categoria</p>
           <p className="price">$320</p>
         </div>
-        <div className="button">
+        <div className="buttom">
           <button className="btn">
             Añadir al carrito
           </button>
