@@ -87,6 +87,17 @@ header .cart span {
     gap: 3rem 1rem;
     box-sizing: border-box;
 }
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, .2);
+    border: 6px solid transparent;
+    border-radius: 5px;
+}
+.producto:hover {
+    border: 6px solid #08a05c55;
+}
 
 /* MEDIA  */
 @media only screen and (max-width: 600px) {
