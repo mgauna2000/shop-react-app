@@ -127,6 +127,8 @@ header .cart span {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 1rem 3rem;
+    padding: 0 1rem;
+    margin: 1rem;
 }
 .buttom .btn {
     border: none;
